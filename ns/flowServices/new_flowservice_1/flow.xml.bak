@@ -4,7 +4,7 @@
 
   <!-- nodes -->
 
-<BRANCH TIMEOUT="" SWITCH="/%/str1%==%/str2%">
+<BRANCH TIMEOUT="" SWITCH="/str1==str2">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -14,7 +14,7 @@
 </INVOKE>
 </BRANCH>
 
-<BRANCH TIMEOUT="" SWITCH="/%/str1%!=%/str2%">
+<BRANCH TIMEOUT="" SWITCH="/str1!=str2">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
