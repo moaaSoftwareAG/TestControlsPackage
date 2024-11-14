@@ -4,14 +4,6 @@
 
   <!-- nodes -->
 
-<MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
-</MAP>
-
-<MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
-</MAP>
-
 <INVOKE TIMEOUT="" SERVICE="pub.date:getCurrentDate" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
@@ -101,13 +93,5 @@
 <MAPCOPY FROM="/date;3.9;0" TO="/DATEsTR;1;0">
 </MAPCOPY>
 </MAP>
-</INVOKE>
-
-<BRANCH TIMEOUT="">
-  <COMMENT></COMMENT>
-</BRANCH>
-
-<INVOKE TIMEOUT="" SERVICE="flowServices:new_flowservice" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
